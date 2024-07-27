@@ -23,8 +23,7 @@ entrada.addEventListener("input",(evento)=>{
 })
 
 btn.addEventListener("click",()=>{
-    //let secuencia = ["hola","mundo"]
-    let secuencia = bltfitz(numero) // ToDo: tengo que cambiar esta función, liso cambiado
+    let secuencia = bltfitz(numero)  //ToDo: tengo que cambiar esta función, liso cambiado
     secuencia.forEach((dato)=>{
         let hijo = document.createElement("h3")
         hijo.innerHTML = dato // ToDo:tengo que cambiar esta función, Listo cambiado
